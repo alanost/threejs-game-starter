@@ -1,0 +1,26 @@
+{
+  "plansDirectory": ".claude/plans",
+  "permissions": {
+    "defaultMode": "acceptEdits",
+    "allow": [
+      "Bash(npm run dev)",
+      "Bash(npm run build)",
+      "Bash(npm run preview)",
+      "Bash(npm run test)",
+      "Bash(npm run test:watch)",
+      "Bash(npm run lint)",
+      "Bash(npm run lint:fix)",
+      "Bash(npm run typecheck)",
+      "Bash(npm install)",
+      "Bash(npx vitest*)",
+      "Bash(npx tsc*)",
+      "Bash(npx eslint*)",
+      "Bash(npx vite*)",
+      "Bash(npx prettier*)",
+      "Bash(npm run format)",
+      "Bash(npm run format:check)",
+      "Write"
+    ]
+  },
+  "CLAUDE_CODE_EXPERIMENTAL_AGENT_TEAMS": true
+}
